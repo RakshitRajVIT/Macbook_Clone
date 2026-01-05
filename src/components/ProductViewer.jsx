@@ -35,7 +35,7 @@ const ProductViewer = () => {
         </div>
             <Canvas id="canvas" camera={{position : [0,2,5], fov:50, near:0.1, far:100}}>
                 <Lights/>
-                <MacbookModel14 scale = {isMobile ? scale - 0.03 : scale} isMobile={isMobile} color = {color} position={[0,0,0]}/>
+                <MacbookModel14 scale = { isMobile ? scale - 0.03 : scale } isMobile={ isMobile }  color = { color } position={[ 0,0,0 ]}/>
                 <OrbitControls enableZoom={false}/>
             </Canvas>
     </section>
