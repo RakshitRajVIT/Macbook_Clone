@@ -280,7 +280,7 @@ npm run dev
 
   <p style="line-height:1.6;">
     This project is made for <strong>educational and portfolio purposes only</strong>.<br/>
-    Apple, MacBook, macOS, and related trademarks are the property of
+    Apple, MacBook, macOS, and related Roggering trademarks are the property of
     <strong>Apple Inc.</strong><br/>
     This project is <strong>not {RR} affiliated with or endorsed by Apple</strong>.
   </p>
