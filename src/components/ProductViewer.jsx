@@ -4,10 +4,12 @@ import { Canvas } from "@react-three/fiber";
 import {OrbitControls} from "@react-three/drei";
 import MacbookModel14 from './models/Macbook-14';
 import Lights from "./Lights";
+import { useMediaQuery } from "react-responsive";
 
 
 const ProductViewer = () => {
-    const {color, scale, setColor, setScale} = useMacbookStore()
+    const {color, scale, setColor, setScale} = useMacbookStore();
+     const isMobile = useMediaQuery({ query: '(max-width: 1024px)'});
   return (
     <section id="product-viewer">
         <h2>Take a Closer Look</h2>
@@ -33,7 +35,7 @@ const ProductViewer = () => {
         </div>
             <Canvas id="canvas" camera={{position : [0,2,5], fov:50, near:0.1, far:100}}>
                 <Lights/>
-                <MacbookModel14 scale = {scale} color = {color} position={[0,0,0]}/>
+                <MacbookModel14 scale = {isMobile ? scale - 0.03 : scale} isMobile={isMobile} color = {color} position={[0,0,0]}/>
                 <OrbitControls enableZoom={false}/>
             </Canvas>
     </section>

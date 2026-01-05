@@ -270,10 +270,17 @@ body {
       @apply mx-auto max-w-xl mt-24;
 
       p {
-        @apply lg:h3-semibold base-semibold text-center translate-y-10 opacity-0 px-5;
+        @apply lg:h3-semibold z-50 base-semibold text-center translate-y-10 opacity-0 px-5;
       }
     }
   }
+  /* Hide on screens smaller than 768px (phones) */
+@media (max-width: 767px) {
+  .desktop-only {
+    display: none;
+  }
+}
+
 
   #features {
     @apply pt-40 relative;
