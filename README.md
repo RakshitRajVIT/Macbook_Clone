@@ -1,4 +1,6 @@
-<img src="public/Screenshots/image.png" alt="">
+<div style="display: flex; justify-content: center;"> 
+    <img src="public/Screenshots/image.png" alt="">
+</div>
 <!-- ================= HERO SECTION ================= -->
 <div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
 background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
@@ -7,7 +9,7 @@ padding:60px 30px;
 border-radius:16px;
 text-align:center;">
 
-  <h1 style="font-size:48px; margin-bottom:10px;">Rapple 🌚 | Apple Clone</h1>
+  <h1 style="font-size:48px; margin-bottom:10px;text-align: center;">Rapple 🌚 | Apple Clone</h1>
 
   <p style="font-size:18px; opacity:0.9; max-width:700px; margin:auto;">
     A visually rich, MacBook-inspired UI clone built using pure web technologies.
@@ -40,16 +42,18 @@ text-align:center;">
 <!-- ================= PREVIEW SECTION ================= -->
 <div style="padding:30px; background:#111; border-radius:14px; color:white;">
 
-  <h2>📸 Preview</h2>
-  <p style="opacity:0.8;">Add your screenshots or screen recordings here</p>
+  <h2 style="text-align: center;">📸 Preview</h2>
+  <p style="opacity:0.8;"></p>
 
   <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:15px; margin-top:20px;">
-    <div style="background:#222; height:160px; border-radius:12px; display:flex; align-items:center; justify-content:center; opacity:0.6; background-image: url(public/Screenshots/image1.png); background-size: cover; background-position: center;">
+    <div >
+        <img src="public/Screenshots/image1.png" alt="">
     </div>
     <div style="background:#222; height:160px; border-radius:12px; display:flex; align-items:center; justify-content:center; opacity:0.6; background-image: url(public/Screenshots/image2.png); background-size: cover; background-position: center;">
+        <img src="public/Screenshots/image2.png" alt="">
     </div>
     <div style="background:#222; height:160px; border-radius:12px; display:flex; align-items:center; justify-content:center; opacity:0.6; background-image: url(public/Screenshots/image3.png); background-size: cover; background-position: center;">
-      Screenshot 3
+      <img src="public/Screenshots/image3.png" alt="">
     </div>
   </div>
 
@@ -60,7 +64,7 @@ text-align:center;">
 <!-- ================= FEATURES ================= -->
 <div style="padding:30px; background:#161616; border-radius:14px;">
 
-  <h2>✨ Features</h2>
+  <h2 style="text-align: center;">✨ Features</h2>
 
   <ul style="font-size:16px; line-height:1.8;">
     <li>🎨 MacBook-inspired UI & layout</li>
@@ -78,7 +82,7 @@ text-align:center;">
 <!-- ================= TECH STACK ================= -->
 <div style="padding:30px; background:#111; border-radius:14px; color:white;">
 
-  <h2>🛠️ Tech Stack</h2>
+  <h2 style="text-align: center;">🛠️ Tech Stack</h2>
 
   <table style="width:100%; border-collapse:collapse; margin-top:15px;">
     <tr>
@@ -122,7 +126,7 @@ text-align:center;">
 <!-- ================= PROJECT STRUCTURE ================= -->
 <div style="padding:30px; background:#0c0c0c; border-radius:14px;">
 
-  <h2>📂 Project Structure</h2>
+  <h2 style="text-align: center;">📂 Project Structure</h2>
 
   <pre style="background:#111; color:#0f0; padding:20px; border-radius:10px;">
 ├── public/
@@ -218,7 +222,7 @@ text-align:center;">
 
 <br/>
 <div style="padding:34px; background:#111111; border-radius:16px;">
-<h2>🚀 How to Run the Project Locally</h2>
+<h2 style="text-align: center;">🚀 How to Run the Project Locally</h2>
 
 <ol style="font-size:16px; line-height:1.9;">
 
@@ -257,7 +261,7 @@ npm run dev
 <!-- ================= PURPOSE ================= -->
 <div style="padding:30px; background:#111; border-radius:14px; color:white;">
 
-  <h2>🎯 Purpose</h2>
+  <h2 style="text-align: center;">🎯 Purpose</h2>
 
   <p style="font-size:16px; line-height:1.7; opacity:0.9;">
     This project was created to improve frontend skills by recreating a real-world,
@@ -272,7 +276,7 @@ npm run dev
 <!-- ================= DISCLAIMER ================= -->
 <div style="padding:30px; background:#161616; border-radius:14px; color:#e6dcdc;">
 
-  <h2>⚠️ Disclaimer</h2>
+  <h2 style="text-align: center;">⚠️ Disclaimer</h2>
 
   <p style="line-height:1.6;">
     This project is made for <strong>educational and portfolio purposes only</strong>.<br/>
@@ -288,7 +292,7 @@ npm run dev
 <!-- ================= LICENSE ================= -->
 <div style="padding:30px; background:#111; border-radius:14px; color:white;">
 
-  <h2>📜 License</h2>
+  <h2 style="text-align: center;">📜 License</h2>
 
   <p>
     This project is licensed under the <strong>MIT License</strong>.<br/>
@@ -303,7 +307,7 @@ npm run dev
 <div style="padding:30px; background:linear-gradient(135deg,#232526,#414345);
 border-radius:14px; color:white; text-align:center;">
 
-  <h2>👤 Author</h2>
+  <h2 style="text-align: center;">👤 Author</h2>
 
   <p style="font-size:18px; margin:10px 0;">
     <strong>Rakshit Raj</strong><br/>
