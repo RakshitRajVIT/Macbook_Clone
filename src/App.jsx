@@ -21,7 +21,7 @@ const App = () => {
         <Hero/>
         <ProductViewer/>
         <ShowCase/>
-        <ShowCaseData />
+        {/* <ShowCaseData /> */}
         <PerformanceWindow/>
         <Features/>
         <Highlights/>
