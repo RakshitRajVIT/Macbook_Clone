@@ -8,6 +8,7 @@ import ShowCase from './components/ShowCase'
 import ShowCaseData from './components/ShowCaseData'
 import PerformanceWindow from './components/PerformanceWindow'
 import Features from './components/Features'
+import Highlights from './components/Highlights'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -22,7 +23,7 @@ const App = () => {
         {/* <ShowCaseData /> */}
         <PerformanceWindow/>
         <Features/>
-        
+        <Highlights/>
     </main>
   )
 }
